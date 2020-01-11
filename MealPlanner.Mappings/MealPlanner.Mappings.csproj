@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MealPlanner.Business.Domain\MealPlanner.Business.Domain.csproj" />
+    <ProjectReference Include="..\MealPlanner.Database.Entity\MealPlanner.Database.Entity.csproj" />
+    <ProjectReference Include="..\MealPlanner.Utilities\MealPlanner.Utilities.csproj" />
+    <ProjectReference Include="..\Utilities.Mapper\Utilities.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

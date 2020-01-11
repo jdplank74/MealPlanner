@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MealPlanner.Database.Context\MealPlanner.Database.Context.csproj" />
+    <ProjectReference Include="..\MealPlanner.Database.Entity\MealPlanner.Database.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

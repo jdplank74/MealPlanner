@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MealPlanner.Business.Domain\MealPlanner.Business.Domain.csproj" />
+    <ProjectReference Include="..\MealPlanner.Utilities\MealPlanner.Utilities.csproj" />
+    <ProjectReference Include="..\MealPlanner.Web.Model\MealPlanner.Web.Model.csproj" />
+    <ProjectReference Include="..\Utilities.Mapper\Utilities.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

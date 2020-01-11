@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MealPlanner.Business.Domain\MealPlanner.Business.Domain.csproj" />
+    <ProjectReference Include="..\MealPlanner.DataAccess.Repository\MealPlanner.DataAccess.Repository.csproj" />
+    <ProjectReference Include="..\MealPlanner.Mappings\MealPlanner.Mappings.csproj" />
+    <ProjectReference Include="..\Utilities.Logging\Utilities.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
