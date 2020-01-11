@@ -1,33 +1,19 @@
 ﻿using FluentValidation.AspNetCore;
 using MealPlanner.Business.Component;
-using MealPlanner.Mappings;
-using Business = MealPlanner.Mappings;
 using MealPlanner.DataAccess.Repository;
 using MealPlanner.Database.Context;
-using MealPlanner.Web.Api.CustomExceptionMiddleware;
+using MealPlanner.Mappings;
 using MealPlanner.Web.Api.Extensions;
 using MealPlanner.Web.Api.Helpers;
-using Web = MealPlanner.Web.Mappings;
-using MealPlanner.Web.Validation;
 using MealPlanner.Web.Mappings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Reflection;
-using Utils = Utilities.Logging;
 
 namespace MealPlanner.Web.Api
 {

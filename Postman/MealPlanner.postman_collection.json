@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "4538af71-66de-40ee-8936-ae4bc799f2cf",
+		"name": "MealPlanner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MealPlan Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\":\"Justin's Meal Plan\",\n\t\"Description\":\"Justin's Meal Plan\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44368/api/mealplans",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"mealplans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Meal Plans",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44368/api/mealplans/884df781-976b-42b8-81e5-dd7dfbf47acb",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"mealplans",
+						"884df781-976b-42b8-81e5-dd7dfbf47acb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Meal Plan Update",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Meal Plan Scheduled Meals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44368/api/mealplans/1/scheduledmeals",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44368",
+					"path": [
+						"api",
+						"mealplans",
+						"1",
+						"scheduledmeals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Meals By User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
